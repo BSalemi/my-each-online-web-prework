@@ -8,3 +8,9 @@ def my_each(array)
     array
   end
 end
+
+my_each(["OK","Sure","You got it, dude"]) do |word|
+  puts "#{word}"
+end
+end
+ 
