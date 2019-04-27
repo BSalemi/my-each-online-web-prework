@@ -5,7 +5,7 @@ def my_each(array)
       yield do |i|
         puts i
         i += 1
-      end 
+      end
     end
   end
 end
