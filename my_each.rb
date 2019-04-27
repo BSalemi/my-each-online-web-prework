@@ -10,7 +10,7 @@ def my_each(array)
 end
 
 my_each(["OK","Sure","You got it, dude"]) do |word|
-  puts "#{word}"
+  if word.start_with?("O")
+    puts "Hi, #{word}"
+  end
 end
-end
- 
